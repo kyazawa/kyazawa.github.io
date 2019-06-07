@@ -1,0 +1,17 @@
+{
+  "name"              : "KyodaiNote",
+  "short_name"        : "KDNote",
+  "description"       : "京大ノートです",
+  "start_url"         : "/kyodai.html",
+  "display"           : "standalone",
+  "orientation"       : "portrait",
+  "background_color"  : "#000000",
+  "theme_color"       : "#ffffff",
+  "icons": [
+    {
+      "src"           : "icon.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
+    }
+  ]
+}
