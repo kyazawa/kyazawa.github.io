@@ -41,7 +41,7 @@ function movePoint(e){
      
     ctx.lineTo(Xpoint, Ypoint);
     ctx.lineCap = "round";
-    ctx.lineWidth = defSize * 2;
+    ctx.lineWidth = 1;//defSize * 2;
     ctx.strokeStyle = defColor;
     ctx.stroke();
      
