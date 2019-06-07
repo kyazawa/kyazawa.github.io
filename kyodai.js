@@ -3,6 +3,12 @@ var canvas = document.getElementById('canvassample'),
     moveflg = 0,
     Xpoint,
     Ypoint;
+
+    var b = document.body;
+    var d = document.documentElement;
+    canvas.width = Math.max(b.clientWidth , b.scrollWidth, d.scrollWidth, d.clientWidth) - 50;
+    canvas.height = Math.max(b.clientHeight , b.scrollHeight, d.scrollHeight, d.clientHeight) - 100;
+
  
 //初期値（サイズ、色、アルファ値）の決定
 var defSize = 7,
